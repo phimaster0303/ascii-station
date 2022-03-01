@@ -15,20 +15,13 @@ asciitype = input("")
 
 
 if asciitype.upper() == "P":
-    randomfont = input(chalk.cyan("Do you want to use a random font? [Y]es | [N]o: "))
-    if randomfont.upper() == "Y":
-        fig = pyfiglet.Figlet()
-        fonts = fig.getFonts()
-        while True:
-            rfont = random.choice(fonts)
-            text = input(chalk.magenta("What text do you want to convert to ascii art?: "))
-            print(pyfiglet.figlet_format(text,font=rfont))
-            print(rfont)
-    else:
-        while True:
-            ifont = input("What font do you want to use: ")
-            itext = input(chalk.magenta("What text do you want to convert to ascii art?: "))
-            pyfiglet.figlet_format(itext, font=ifont)
+    fig = pyfiglet.Figlet()
+    fonts = fig.getFonts()
+    while True:
+        rfont = random.choice(fonts)
+        text = input(chalk.magenta("What text do you want to convert to ascii art?: "))
+        print(pyfiglet.figlet_format(text,font=rfont))
+        print(rfont)
 elif asciitype.upper() == "A":
     print("What size do you want the ascii art to be? | 1 -> small | 2 -> medium | 3 -> large | 4 -> X-large")
     asciisize = input()
