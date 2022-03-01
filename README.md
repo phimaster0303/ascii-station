@@ -1,5 +1,1 @@
-# ascii-station
-This is very unoptimised, please don't judge me.
-
-
-![image](https://user-images.githubusercontent.com/94635072/156202920-6709d63c-2997-44fb-9c8f-270fc3942872.png)
+<iframe src="https://giphy.com/embed/Y0zTJ7VrKo9P2" width="480" height="434" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animated-3d-animal-Y0zTJ7VrKo9P2">via GIPHY</a></p>
