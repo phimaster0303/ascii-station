@@ -1,1 +1,1 @@
-<iframe src="https://giphy.com/embed/Y0zTJ7VrKo9P2" width="480" height="434" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animated-3d-animal-Y0zTJ7VrKo9P2">via GIPHY</a></p>
+![image]"https://giphy.com/embed/Y0zTJ7VrKo9P2"
