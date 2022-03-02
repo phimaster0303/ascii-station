@@ -1,16 +1,10 @@
-import pyfiglet, art, simple_chalk as chalk, random, os
-chalk.black(os.system("cls"))
-chalk.black(os.system("pip install pyfiglet"))
-chalk.black(os.system("cls"))
-chalk.black(os.system("pip install art"))
-chalk.black(os.system("cls"))
-chalk.black(os.system("pip install simple_chalk"))
-chalk.black(os.system("cls"))
-chalk.black(os.system("pip install os"))
-chalk.black(os.system("cls"))
-#Ask what text2ascii libary you want to use
-print(chalk.blueBright("What do you want to use?:"))
-print((chalk.green("[P]yfiglet ")+ chalk.blue("|") + chalk.red(" [A]rt")))
+import pyfiglet
+import art
+import random
+import os
+os.system("cls")
+print("What do you want to use?:")
+print("[P]yfiglet | [A]rt")
 asciitype = input("")
 
 
@@ -19,7 +13,7 @@ if asciitype.upper() == "P":
     fonts = fig.getFonts()
     while True:
         rfont = random.choice(fonts)
-        text = input(chalk.magenta("What text do you want to convert to ascii art?: "))
+        text = input("What text do you want to convert to ascii art?: ")
         print(pyfiglet.figlet_format(text,font=rfont))
         print(rfont)
 elif asciitype.upper() == "A":
